@@ -17,7 +17,7 @@ print('Your Video is successfully downloaded!')
 
 
 # ''' -------------------LIST ALL THE RESOLUTION-------------------------------------------------- '''
-# videosAllResolution = yt.streams.filter(progressive=True, file_extension='mp4')
+# videosAllResolution = yt.streams.filter(progressive=True)
 # ''' -------------------To list all qualities of the videos that's MP4---------------------------'''
 # videos = yt.streams.filter(progressive=True, file_extension='mp4')
 # '''' ------------------Download a single quality without listing them............................'''
